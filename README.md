@@ -7,23 +7,31 @@ Generative Adversarial Networks (GANs) are machine learning frameworks where two
 
 ## 🏗️ Foundational & Basic GANs
 
-* **Vanilla GAN:** The simplest and original GAN architecture. It utilizes basic Multi-Layer Perceptrons (MLPs) for both networks. Highly foundational but notoriously unstable during training.
-* **Deep Convolutional GAN (DCGAN):** A massive improvement over the vanilla GAN. This architecture replaces fully connected layers with Convolutional Neural Networks (CNNs) to stabilize training. Primarily used for high-quality image generation.
+| GAN Type | Description | Year | Original Paper |
+| :--- | :--- | :--- | :--- |
+| [Vanilla GAN](VanillaGAN.md) | The simplest and original GAN architecture using MLPs. | 2014 | [Generative Adversarial Nets](https://arxiv.org/abs/1406.2661) |
+| [DCGAN](DCGAN.md) | Replaces fully connected layers with CNNs to stabilize training. | 2015 | [Unsupervised Representation Learning with DCGANs](https://arxiv.org/abs/1511.06434) |
 
 ## 🎯 Controlled & Labeled Generation
 
-* **Conditional GAN (cGAN):** Introduces conditional parameters (like class labels or text descriptions) into both the generator and discriminator. This allows the user to explicitly dictate *what* gets generated (e.g., generating an image of a specific object based on a label).
-* **Information Maximizing GAN (InfoGAN):** An extension of cGAN that learns disentangled representations in an unsupervised manner. It separates latent variables to independently control specific features like object angles, stroke widths, or facial emotions.
+| GAN Type | Description | Year | Original Paper |
+| :--- | :--- | :--- | :--- |
+| [Conditional GAN (cGAN)](cGAN.md) | Introduces conditional parameters to dictate generated content. | 2014 | [Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784) |
+| [InfoGAN](InfoGAN.md) | Learns disentangled representations in an unsupervised manner. | 2016 | [InfoGAN: Interpretable Representation Learning](https://arxiv.org/abs/1606.03657) |
 
 ## 🔄 Image-to-Image Translation
 
-* **CycleGAN:** A specialized network used for translating an image from one domain to another without needing paired, corresponding examples. Famous for "unpaired style transfer" tasks, such as turning a photograph of a horse into a zebra.
-* **Pix2Pix:** Operates on paired datasets to transform one image into another. For instance, turning a sketch of a building into a photorealistic architectural rendering.
+| GAN Type | Description | Year | Original Paper |
+| :--- | :--- | :--- | :--- |
+| [CycleGAN](CycleGAN.md) | Translates images between domains without paired examples. | 2017 | [Unpaired Image-to-Image Translation](https://arxiv.org/abs/1703.10593) |
+| [Pix2Pix](Pix2Pix.md) | Operates on paired datasets to transform one image into another. | 2016 | [Image-to-Image Translation with cGANs](https://arxiv.org/abs/1611.07004) |
 
 ## 💎 High-Resolution & Quality Enhancements
 
-* **Super-Resolution GAN (SRGAN):** Designed specifically to take a low-resolution or blurry image and reconstruct it into a high-resolution version by hallucinating realistic finer details.
-* **StyleGAN:** Focuses on creating extremely realistic, high-quality images (especially human faces). It allows users to separate features, providing fine-grained control over the "style" of the image (e.g., controlling hair, freckles, age, or expression).
+| GAN Type | Description | Year | Original Paper |
+| :--- | :--- | :--- | :--- |
+| [SRGAN](SRGAN.md) | Reconstructs high-resolution images from low-resolution versions. | 2016 | [Photo-Realistic Single Image Super-Resolution](https://arxiv.org/abs/1609.04802) |
+| [StyleGAN](StyleGAN.md) | Provides fine-grained control over image "style" for high realism. | 2018 | [A Style-Based Generator Architecture](https://arxiv.org/abs/1812.04948) |
 
 
 ## 📈 Star History
@@ -45,4 +53,3 @@ Generative Adversarial Networks (GANs) are machine learning frameworks where two
 
 * [Google for Developers GAN Variations Guide](https://google.com)
 * [AWS What is a GAN? Explanation](https://amazon.com)
-
