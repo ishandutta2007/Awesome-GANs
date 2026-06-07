@@ -25,9 +25,24 @@ Generative Adversarial Networks (GANs) are machine learning frameworks where two
 * **Super-Resolution GAN (SRGAN):** Designed specifically to take a low-resolution or blurry image and reconstruct it into a high-resolution version by hallucinating realistic finer details.
 * **StyleGAN:** Focuses on creating extremely realistic, high-quality images (especially human faces). It allows users to separate features, providing fine-grained control over the "style" of the image (e.g., controlling hair, freckles, age, or expression).
 
+
+## 📈 Star History
+
+<div align="center">
+	<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-GANs&type=date&legend=bottom-right">
+	 <picture>
+	   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-GANs&type=date&theme=dark&legend=bottom-right" />
+	   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-GANs&type=date&legend=bottom-right" />
+	   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-GANs&type=date&legend=bottom-right" />
+	 </picture>
+	</a>
+</div>
+
+
 ---
 
 ## 📚 External Resources
 
 * [Google for Developers GAN Variations Guide](https://google.com)
 * [AWS What is a GAN? Explanation](https://amazon.com)
+
